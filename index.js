@@ -8,7 +8,7 @@
 
 var initialized = false;
 
-export default {
+module.exports = {
     init(pixelId) {
         if (!pixelId) {
             console.warn('Please, insert pixel ID to initialize');

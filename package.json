@@ -1,7 +1,7 @@
 {
-  "name": "next-snapchat-pixel",
+  "name": "next-snapchat-pixel-fixed",
   "version": "1.0.0",
-  "description": "A module for tracking Snapchat data for React/Next based applications",
+  "description": "A fork of next-snap-pixel. A module for tracking Snapchat data for React/Next based applications",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,7 @@
     "nextjs",
     "pixel"
   ],
-  "author": "Kamal Mirzayev",
+  "author": "talha4real",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mirzayevkamal/next-snapchat-pixel/issues"
