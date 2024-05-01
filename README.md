@@ -5,11 +5,11 @@
 
 # How to use?
 
-`npm install next-snapchat-pixel`
+`npm install next-snapchat-pixel-fixed`
 
 # Importing
 
-`import NextSnapPixel from 'next-snapchat-pixel`
+`import NextSnapPixel from 'next-snapchat-pixel-fixed`
 
 # Initializing
 

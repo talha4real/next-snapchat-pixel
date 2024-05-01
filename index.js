@@ -1,15 +1,15 @@
 /**
  *  Next Snapchat Pixel Module
  *
- * @package next-snapchat-pixel
- * @author Kamal Mirzayev <mirzayevkamal@gmail.com>
+ * @package next-snapchat-pixel-fixed
+ * @author talha4real <talhabutt993@gmail.com>
  *
 **/
 
 var initialized = false;
 
 module.exports = {
-    init(pixelId) {
+    init(pixelId, email=null) {
         if (!pixelId) {
             console.warn('Please, insert pixel ID to initialize');
         } else {
@@ -25,7 +25,14 @@ module.exports = {
                     const u = t.getElementsByTagName(s)[0];
                     u.parentNode.insertBefore(r, u);
                 }(window, document, 'https://sc-static.net/scevent.min.js'));
-                snaptr('init', pixelId);
+                if(email){
+                    snaptr('init', pixelId,{
+                        user_email: email
+                    });
+                }else{
+                    snaptr('init', pixelId);
+                }
+                
                 initialized = true;
             } else {
                 console.error('Window is not defined')

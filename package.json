@@ -1,6 +1,6 @@
 {
   "name": "next-snapchat-pixel-fixed",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A fork of next-snap-pixel. A module for tracking Snapchat data for React/Next based applications",
   "main": "index.js",
   "scripts": {
